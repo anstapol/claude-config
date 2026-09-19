@@ -1,0 +1,23 @@
+{
+  "name": "anstapol-config",
+  "version": "2.0.0",
+  "description": "My working rules, the unslop prose skill, and vendored copies of the third-party skills I use.",
+  "author": {
+    "name": "anstapol",
+    "url": "https://github.com/anstapol"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/rules/personal-rules.md\" \"${CLAUDE_PLUGIN_ROOT}/skills/unslop/SKILL.md\"",
+            "timeout": 10,
+            "statusMessage": "Loading personal rules..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# repo  upstream_path  dest_skill_dir
+mattpocock/skills                   skills/productivity/grilling  grilling
+anthropics/skills                   skills/frontend-design        frontend-design
+forrestchang/andrej-karpathy-skills skills/karpathy-guidelines    karpathy-guidelines
+vercel-labs/agent-skills            skills/react-best-practices   vercel-react-best-practices
+vercel-labs/agent-skills            skills/composition-patterns   vercel-composition-patterns
+vercel-labs/agent-skills            skills/web-design-guidelines  web-design-guidelines

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "anstapol",
+  "description": "My complete Claude Code setup in one catalog: personal rules and every skill I use in one plugin, plus the two tool plugins I run, so local and cloud sessions install from a single marketplace.",
+  "owner": {
+    "name": "anstapol",
+    "url": "https://github.com/anstapol"
+  },
+  "plugins": [
+    {
+      "name": "anstapol-config",
+      "description": "My working rules, the unslop prose skill, and vendored copies of the third-party skills I use, injected or listed at session start.",
+      "source": "./plugins/anstapol-config",
+      "version": "2.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed replies that keep technical terms, code and errors exact.",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "context-mode",
+      "description": "Runs analysis in a sandbox so large tool output stays out of the context window.",
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      },
+      "category": "productivity"
+    }
+  ]
+}
